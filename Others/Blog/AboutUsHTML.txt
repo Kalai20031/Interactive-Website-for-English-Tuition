@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AboutUs.css">
+</head>
+<body>
+
+      <!-- Navigation-->
+   <nav>
+    <img src="Images/NNN.png">
+    <div class="items">
+        <ul>
+            <Li> <a href="Index.html" > Home </a> </Li>
+            <Li> <a href="Courses.html"> Courses </a> </Li>
+            <Li> <a href="ExamPapers.html"> Exam Papers </a> </Li>
+            <Li> <a href="AboutUs.html"  class="active"> About Us </a> </Li>
+            <Li> <a href="ConatctUs.html"> Contact Us </a> </Li>
+        </ul>
+    </div>
+   </nav>
+
+   <!-- Body Part -->
+
+<section class="about-section">
+        <h2>About Me</h2>
+        <div class="about-details">
+            <img src="Images/VijayKumar.jpg" alt="Vijay Kumar" class="about-image">
+            <div class="about-text">
+                <p>Hello, my name is Vijay Kumar, and I am an English tutor based in Sri Lanka. I have been teaching English for several years and have a passion for helping my students improve their language skills. My goal is to make learning English enjoyable and effective, whether you're a beginner or an advanced student.</p>
+                <p>Through this website, I provide my students with easy access to study materials, worksheets, and the latest updates about upcoming classes. I aim to create a supportive and engaging learning environment, where students can learn at their own pace and feel confident in their abilities.</p>
+                <p>In addition to providing lessons, I also focus on fostering good communication skills, critical thinking, and language fluency. My classes are designed to meet the individual needs of each student, helping them reach their academic and professional goals.</p>
+            </div>
+        </div>
+</section>
+
+<section class="mission-section">
+    <div class="mission-container">
+        <h2>My Mission</h2>
+        <p>My mission is to provide high-quality English lessons to my students and help them build a strong foundation in the language. I believe that learning English opens doors to new opportunities, both academically and professionally, and I am committed to guiding my students towards success.</p>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="cta-container">
+        <h2>Stay Updated</h2>
+        <p>Don't miss out on any updates about my classes or new study materials. Stay connected and keep learning!</p>
+        <a href="ConatctUs.html" class="cta-button">Contact Us</a>
+    </div>
+</section>
+
+<!-- Footer-->
+
+<footer>
+    <div class="footer-col">
+        <h3> Top Courses </h3>
+        <li onclick="window.location.href='CoursesList.html#ListSec01'">Tenses</li>
+        <li onclick="window.location.href='CoursesList.html#ListSec02'"> Phrases </li>
+        <li onclick="window.location.href='CoursesList.html#ListSec03'"> Idioms </li>
+        <li onclick="window.location.href='CoursesList.html#ListSec04'"> Clauses </li>
+    </div>
+
+    <div class="footer-col">
+        <h3> Exam Papers </h3>
+        <li  onclick="window.location.href='ExamPapers.html#section-title1'"> O/L Eng Past Papers </li>
+        <li  onclick="window.location.href='ExamPapers.html#section-title2'"> G.English Past Papers </li>
+        <li  onclick="window.location.href='ExamPapers.html#section-title3'"> O/L English Model Papers </li>
+        <li  onclick="window.location.href='ExamPapers.html#section-title3'"> G.English Model Papers </li>
+    </div>
+
+
+    <div class="footer-col">
+        <h3> Quick Links </h3>
+        <li> <a href="http://www.edupub.gov.lk/BooksDownload.php" target="_blank" class="Anchor"> Text Book Download </a> </li>
+        <li> <a href="https://www.e-thaksalawa.moe.gov.lk/En/en-grade10.php" target="_blank" class="Anchor"> e-thaksalawa </a>  </li>
+        <li> <a href="https://moe.gov.lk/" target="_blank" class="Anchor"> Ministry of Education </a>  </li>
+        <li> <a href="https://www.doenets.lk/" target="_blank" class="Anchor">  Department of Examination </a> </li>
+    </div>
+
+    <div class="footer-col">
+        <h3> Service </h3>
+        <li onclick="window.location.href='ConatctUs.html'">  Contact Us </li>
+        <li onclick="window.location.href='AboutUs.html'"> About Us </li>
+    </div>
+
+
+    <div class="footer-col">
+        <h3> Newsletter </h3>
+        <p> You can trust us. We only send course offers.</p>
+        <div class="subscribe">
+            <input type="text" placeholder="Your Email Address">
+            <a href="#" class="yellow"> Subscribe </a>
+        </div>
+    </div>
+
+    
+        <div class="Copyright">
+            <p> Copyright &copy; 2024 All rights reserved | This template is made  by KalaiTech </p>
+            <div class="prolinks"> 
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+    
+        </div> 
+</footer>
+
+
+    
+</body>
+</html>

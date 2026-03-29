@@ -1,0 +1,249 @@
+nav{
+    position: fixed; /* Keeps the nav in the same place even when you scroll */
+    height: 75px; /* Fixes the height of the nav to 75 pixels */
+    width: 85%;
+    background-color: #4d75aa; /* Changes the background color to light blue with high priority */
+    display: flex; /* in a horzontal line */
+    justify-content: space-between; /* Distributes space between items, placing the first on the left and last on the right */
+    padding: 0.5vw 6.81vw; /* Adds spacing inside the nav: smaller padding top and bottom, larger on left and right */
+    align-items: center; /* Centers items vertically in the nav */
+    box-shadow: 2px 2px 16px rgba(248, 89, 89, 0.15); /* Adds a shadow for depth with a light opacity */
+    z-index: 1000; /* Nothing will be overlapped */
+    top:0px;
+}
+   
+nav img {
+    width: 130px; /* Force this width to be applied */
+    height: auto; /* Maintain aspect ratio */
+}
+
+nav .items ul {
+    display: flex;
+    gap: 1rem;
+   
+}
+
+nav .items ul li {
+    list-style: none;
+    
+}
+
+nav .items ul li a {
+    text-decoration: none;
+    color: rgb(1, 1, 14);
+    font-size: 20px; /* Slightly reduced font size */
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav .items ul li a.active, /* Placing the yellow color */
+
+nav .items ul li a:hover {
+    color: yellow;
+}
+
+
+
+
+
+/* Heading */
+
+#CourseSec01 {
+    background-image: linear-gradient(rgba(3, 1, 19, 0.3), rgba(2, 1, 26, 0.7)),url("Images/Bag.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover; /* 4 to 1 image */
+    background-position: center;
+    display: flex; /* p will be in one row */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#CourseSec01 p{
+    width: 50%;
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 120px;
+}
+
+/* All Courses */
+
+#CourseSec02 {
+    padding: 5vw 8vw 0 8vw;
+text-align: center;
+}
+
+
+#CourseSec02 .Courses-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+#CourseSec02 .Courses {
+    text-align: start;
+    background: rgb(214, 214, 214);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover animations */
+    position: relative;
+    color: black;
+    
+}
+
+#CourseSec02 .Courses:hover {
+   
+    transform: scale(1.05); /* Slight scale-up on hover Zoom in and out*/
+}
+
+#CourseSec02 .Courses img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Adding spacing between stars and other text */
+.details .star {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
+    color:rgb(97, 97, 7);
+}
+
+.details .cost {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.details {
+    text-align: center;
+}
+
+#CourseSec02 .Courses .cost {
+    background-color:blue;
+    color:white;
+    line-height: 70px;
+    width:70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+}
+
+.Courses-box a {
+    text-decoration: none;
+}
+
+
+
+/* Footer */
+
+footer {
+    padding: 6vw;
+    background-color: #002753;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+footer .footer-col {
+    padding-bottom: 40px;
+    
+}
+
+footer h3 {
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li, .Anchor{
+    list-style: none;
+    color: gray;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 00.3s ease;
+    text-decoration: none;
+}
+
+
+footer li:hover , .Anchor:hover {
+    color: white;
+}
+
+.Copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px; /* Adjust this value to control how far down it goes */
+    color: white;
+}
+
+
+.prolinks i {
+    color: white;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+footer .Subscribe {
+    margin-top: 20px;
+}
+
+footer input {
+    width: 220px;
+    padding: 15px 12px;
+    background: rgb(91, 91, 201);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 40px;
+    background-color:white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+footer .subscribe a.yellow{
+    color: rgb(0, 0, 0);
+    background: rgb(177, 177, 40);
+    transition: 0.3s ease;
+}
+
+footer .subscribe a.yellow:hover{
+    color: rgb(255, 94, 0);
+    background: white;
+}
+
+.footer-col p{
+    color:gray;
+}
+
+
+.subscribe input::placeholder {
+    color: rgb(229, 229, 243);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
