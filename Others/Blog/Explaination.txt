@@ -1,5 +1,0 @@
-
-
-onclick="window.location.href='CoursesList.html#ListSec01'"
-
-https://kit.fontawesome.com/0546f3d670.js
